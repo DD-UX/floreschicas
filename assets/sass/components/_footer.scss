@@ -1,0 +1,35 @@
+$footer-padding: 13px;
+
+.footer{
+    font:10px $font-family-sans-serif;
+    background: $footer-black;
+    padding-top: $footer-padding;
+    padding-bottom: $footer-padding;
+    text-align: right;
+    text-transform: uppercase;
+    &, & a {
+        color: $gray;
+    }
+    .logo-footer {
+        img {
+            max-height: 42px;
+            display: block;
+        }
+    }
+    nav{
+        display: inline-block;
+        margin-bottom: 5px;
+        padding-bottom: 3px;
+        border-bottom: 1px solid $gray;
+        a {
+            margin-left: 15px;
+            &:first-child {
+                margin-left: 40px;
+            }
+        }
+    }
+    p{
+        margin: 0;
+    
+    }
+}

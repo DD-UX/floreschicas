@@ -1,0 +1,15 @@
+$logo-height: 42px;
+$logo-padding: (($navbar-height - $logo-height) / 2);
+
+.navbar{
+    font:14px $font-family-sans-serif;
+    
+    .navbar-brand {
+        padding-top: $logo-padding;
+        padding-bottom: $logo-padding;
+
+        img{
+            max-height: $logo-height;
+        }
+    }
+}
