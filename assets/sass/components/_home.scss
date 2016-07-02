@@ -1,0 +1,47 @@
+$slides: "cabana" "ventas" "contacto" "remate";
+
+.home {
+  .navbar {
+    &.navbar-default {
+      background: none!important;
+      border: none!important;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+    }
+    a {
+      &, &:hover, &.active {
+        color: white!important;
+      }
+    }
+    
+  }
+  .home-slider {
+    color: white;
+    .swiper-slide {
+      height: 800px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      
+      @for $i from 1 through length($slides) {
+        $name: nth($slides, $i);
+        &.slide-#{$name} {
+          background-image: url(../img/home/img-slider-0#{$i}.jpg);
+        }
+      }
+      
+    }
+  }
+}

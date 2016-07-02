@@ -8873,3 +8873,53 @@ section.formulario-contacto textarea.form-control {
     padding: 0 50px;
   }
 }
+/* line 5, ../sass/components/_home.scss */
+.home .navbar.navbar-default {
+  background: none !important;
+  border: none !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+/* line 15, ../sass/components/_home.scss */
+.home .navbar a, .home .navbar a:hover, .home .navbar a.active {
+  color: white !important;
+}
+/* line 21, ../sass/components/_home.scss */
+.home .home-slider {
+  color: white;
+}
+/* line 23, ../sass/components/_home.scss */
+.home .home-slider .swiper-slide {
+  height: 800px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+/* line 40, ../sass/components/_home.scss */
+.home .home-slider .swiper-slide.slide-cabana {
+  background-image: url(../img/home/img-slider-01.jpg);
+}
+/* line 40, ../sass/components/_home.scss */
+.home .home-slider .swiper-slide.slide-ventas {
+  background-image: url(../img/home/img-slider-02.jpg);
+}
+/* line 40, ../sass/components/_home.scss */
+.home .home-slider .swiper-slide.slide-contacto {
+  background-image: url(../img/home/img-slider-03.jpg);
+}
+/* line 40, ../sass/components/_home.scss */
+.home .home-slider .swiper-slide.slide-remate {
+  background-image: url(../img/home/img-slider-04.jpg);
+}
