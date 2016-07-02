@@ -8798,6 +8798,10 @@ body .container {
   width: auto !important;
   max-width: 1170px;
 }
+/* line 6, ../sass/components/_general.scss */
+body a, body .btn {
+  transition: all 300ms ease-in;
+}
 
 /* line 4, ../sass/components/_nav.scss */
 .navbar {
@@ -8873,53 +8877,139 @@ section.formulario-contacto textarea.form-control {
     padding: 0 50px;
   }
 }
-/* line 5, ../sass/components/_home.scss */
-.home .navbar.navbar-default {
-  background: none !important;
-  border: none !important;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 10;
-}
-/* line 15, ../sass/components/_home.scss */
-.home .navbar a, .home .navbar a:hover, .home .navbar a.active {
-  color: white !important;
-}
-/* line 21, ../sass/components/_home.scss */
-.home .home-slider {
-  color: white;
-}
-/* line 23, ../sass/components/_home.scss */
-.home .home-slider .swiper-slide {
-  height: 800px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-/* line 40, ../sass/components/_home.scss */
-.home .home-slider .swiper-slide.slide-cabana {
-  background-image: url(../img/home/img-slider-01.jpg);
-}
-/* line 40, ../sass/components/_home.scss */
-.home .home-slider .swiper-slide.slide-ventas {
-  background-image: url(../img/home/img-slider-02.jpg);
-}
-/* line 40, ../sass/components/_home.scss */
-.home .home-slider .swiper-slide.slide-contacto {
-  background-image: url(../img/home/img-slider-03.jpg);
-}
-/* line 40, ../sass/components/_home.scss */
-.home .home-slider .swiper-slide.slide-remate {
-  background-image: url(../img/home/img-slider-04.jpg);
+@media only screen and (min-width: 768px) {
+  /* line 13, ../sass/components/_home.scss */
+  .home .navbar.navbar-default {
+    background: none !important;
+    border: none !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+  /* line 22, ../sass/components/_home.scss */
+  .home .navbar .navbar-brand img {
+    max-height: none;
+  }
+  /* line 26, ../sass/components/_home.scss */
+  .home .navbar a, .home .navbar a:hover, .home .navbar a.active {
+    color: white !important;
+  }
+  /* line 32, ../sass/components/_home.scss */
+  .home .home-slider {
+    color: white;
+  }
+  /* line 34, ../sass/components/_home.scss */
+  .home .home-slider .swiper-button-prev {
+    left: 50%;
+    margin-left: -560px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+  }
+  /* line 40, ../sass/components/_home.scss */
+  .home .home-slider .swiper-button-next {
+    right: 50%;
+    margin-right: -560px;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  /* line 48, ../sass/components/_home.scss */
+  .home .home-slider .swiper-button-prev,
+  .home .home-slider .swiper-button-next {
+    background: none;
+    width: 20px;
+    height: 20px;
+    border-top: solid 2px white;
+    border-left: solid 2px white;
+    box-shadow: -1px -1px 1px 0 rgba(0, 0, 0, 0.6);
+  }
+  /* line 58, ../sass/components/_home.scss */
+  .home .home-slider .swiper-slide {
+    background: none no-repeat center center;
+    background-size: cover;
+    height: 850px;
+    padding-bottom: 200px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  /* line 77, ../sass/components/_home.scss */
+  .home .home-slider .swiper-slide.slide-cabana {
+    background-image: url(../img/home/img-slider-01.jpg);
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  /* line 77, ../sass/components/_home.scss */
+  .home .home-slider .swiper-slide.slide-ventas {
+    background-image: url(../img/home/img-slider-02.jpg);
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  /* line 77, ../sass/components/_home.scss */
+  .home .home-slider .swiper-slide.slide-contacto {
+    background-image: url(../img/home/img-slider-03.jpg);
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  /* line 77, ../sass/components/_home.scss */
+  .home .home-slider .swiper-slide.slide-remate {
+    background-image: url(../img/home/img-slider-04.jpg);
+  }
+  /* line 88, ../sass/components/_home.scss */
+  .home .home-slider .swiper-slide.slide-remate img {
+    margin-right: 30px;
+  }
+  /* line 95, ../sass/components/_home.scss */
+  .home .home-slider .swiper-slide .btn {
+    font-size: 20px;
+    border-radius: 20px;
+    line-height: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    border: none;
+    width: 300px;
+  }
+  /* line 107, ../sass/components/_home.scss */
+  .home .home-slider .container {
+    z-index: 2;
+    position: relative;
+    margin-top: -300px;
+    padding: 0 65px;
+  }
+  /* line 112, ../sass/components/_home.scss */
+  .home .home-slider .container .row {
+    border-top: solid 1px white;
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+  /* line 117, ../sass/components/_home.scss */
+  .home .home-slider .container .row .col-sm-4:first-child {
+    padding-left: 0;
+  }
+  /* line 120, ../sass/components/_home.scss */
+  .home .home-slider .container .row .col-sm-4:last-child {
+    padding-right: 0;
+  }
 }

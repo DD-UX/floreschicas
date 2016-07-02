@@ -3,4 +3,7 @@ body {
     width: auto!important;
     max-width: $container-large-desktop;
   }
+  a, .btn {
+    transition: #{$transition};
+  }
 }
