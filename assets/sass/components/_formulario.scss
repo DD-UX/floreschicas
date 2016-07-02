@@ -1,0 +1,29 @@
+$margin_bottom: 17px;
+
+section.formulario-contacto{
+    background: #f0ede5;
+    padding: 60px 0;
+	.form-control{
+		margin-bottom: $margin_bottom;
+        font-size: $font-size-small;
+        box-shadow: none;
+	}
+    textarea.form-control {
+        height: ($input-height-base * 3) + ($margin_bottom * 2);
+        resize: none;
+    }
+}
+
+
+@media only screen and (min-width: $screen-sm) {
+    section.formulario-contacto{
+        .container {
+            padding: 0 50px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: $screen-sm) {
+    
+}
