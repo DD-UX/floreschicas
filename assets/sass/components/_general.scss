@@ -1,4 +1,6 @@
 body {
-    
-    
+  .container {
+    width: auto!important;
+    max-width: $container-large-desktop;
+  }
 }

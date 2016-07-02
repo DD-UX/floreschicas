@@ -3,7 +3,7 @@
 <head>
     <title><?= (isset($titulo) && !empty($titulo)) ? $titulo : "Cabaña flores chicas"; ?></title>
     <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name=viewport>
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
