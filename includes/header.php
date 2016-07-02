@@ -1,26 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>
-        <?php
-            if (isset($titulo) && !empty($titulo)) {
-                echo $titulo;
-            } else {
-                echo "Cabaña flores chicas";
-            }
-        ?>
-    </title>
+    <title><?= (isset($titulo) && !empty($titulo)) ? $titulo : "Cabaña flores chicas"; ?></title>
     <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name=viewport>
+    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/scripts.js"></script>
     <link rel="image" href="assets/img/index.jpg">
     
 </head>
-<body>
-    <header class="navbar navbar-default">
+<body class="<?= (isset($body_classes) && !empty($body_classes)) ? $body_classes : ""; ?>">
+    <header class="navbar navbar-default <?= (!isset($header_static)) ? "navbar-fixed-top" : ""; ?>">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">

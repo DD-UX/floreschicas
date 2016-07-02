@@ -1,4 +1,5 @@
-<?php $titulo = "Cabaña flores chicas - Bienvenidos!"; ?>
+<?php $titulo = "Filosofía - Cabaña flores chicas"; ?>
+<?php $body_classes = "filosofia"; ?>
 <?php require_once('includes/header.php'); ?>
 
 <?php //Contenido va acá ?>
