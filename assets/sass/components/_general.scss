@@ -1,9 +1,22 @@
 body {
-  .container {
-    width: auto!important;
-    max-width: $container-large-desktop;
-  }
-  a, .btn {
-    transition: #{$transition};
-  }
+    .container {
+        width: auto!important;
+        max-width: $container-large-desktop;
+    }
+    a, .btn {
+        transition: #{$transition};
+    }
+    .bg-verde{
+        background: $green;
+        font-family: $font-family-sans-serif;
+        padding: 10px 10px 10px 20px;
+        &,
+        & a,
+        & a:hover {
+            color: white;
+        }
+        p{
+            margin: 0px;
+        }
+    }
 }
