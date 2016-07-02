@@ -1,4 +1,5 @@
 <?php $titulo = "Cabaña flores chicas - Bienvenidos!"; ?>
+<?php $body_classes = "home"; ?>
 <?php require_once('includes/header.php'); ?>
 
 <?php //Contenido va acá ?>

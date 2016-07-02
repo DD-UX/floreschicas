@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>
-        <?php
-            if (isset($titulo) && !empty($titulo)) {
-                echo $titulo;
-            } else {
-                echo "Cabaña flores chicas";
-            }
-        ?>
-    </title>
+    <title><?= (isset($titulo) && !empty($titulo)) ? $titulo : "Cabaña flores chicas"; ?></title>
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name=viewport>
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -19,7 +11,7 @@
     <link rel="image" href="assets/img/index.jpg">
     
 </head>
-<body>
+<body class="<?= (isset($body_classes) && !empty($body_classes)) ? $body_classes : ""; ?>">
     <header class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
