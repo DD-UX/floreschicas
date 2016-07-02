@@ -11,6 +11,11 @@ section.formulario-contacto{
         height: ($input-height-base * 3) + ($margin_bottom * 2);
         resize: none;
     }
+    .form-msg {
+        display: none;
+        &.error-msg {color: red;}
+        &.success-msg {color: $green;}
+    }
 }
 
 
