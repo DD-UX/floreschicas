@@ -44,8 +44,20 @@
             </figure>
         </div>
     </div>
-    <div class="bg-verde colapsador">
-        <h3 class="h3">FERTILIDAD | <span class="h5">Mucha más retribución con el mismo capital.</span></h3> 
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default">
+            <a data-toggle="collapse" data-parent="#accordion" href="#fertilidad" class="collapsed">
+                <div class="panel-heading bg-verde colapsador">
+                    <h3 class="h3">FERTILIDAD | <span class="h5">Mucha más retribución con el mismo capital.</span></h3>
+                    <div class="colapsador-button-next"></div>
+                </div>
+            </a>
+            <div id="fertilidad" class="panel-collapse collapse row">
+                <div class="col-sm-4 col-xs-12">Lorem ipsum dolor sit amet</div>
+                <div class="col-sm-4 col-xs-12">Lorem ipsum dolor sit amet</div>
+                <div class="col-sm-4 col-xs-12">Lorem ipsum dolor sit amet</div>
+            </div>
+        </div>
     </div>
 </section>
 
