@@ -46,6 +46,7 @@
     </div>
     <div class="panel-group" id="accordion">
         <div class="panel panel-default">
+            <!-- Fertilidad -->
             <a data-toggle="collapse" data-parent="#accordion" href="#fertilidad" class="collapsed">
                 <div class="panel-heading bg-verde colapsador">
                     <h3 class="h3">FERTILIDAD | <span class="h5">Mucha más retribución con el mismo capital.</span></h3>
@@ -53,9 +54,39 @@
                 </div>
             </a>
             <div id="fertilidad" class="panel-collapse collapse row">
-                <div class="col-sm-4 col-xs-12">Lorem ipsum dolor sit amet</div>
-                <div class="col-sm-4 col-xs-12">Lorem ipsum dolor sit amet</div>
-                <div class="col-sm-4 col-xs-12">Lorem ipsum dolor sit amet</div>
+                <div class="col-sm-4 col-xs-12">
+                    <img src="assets/img/lacabana/img-lacabana-04.jpg" class="img-responsive" alt="La cabaña">
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <p>Hemos obtenido una marcación promedio de 91 terneros por vientre entorado en los últimos 10 años.
+El servicio tiene 65 días de duración. Trabajamos con una carga de 1.2 vacas por hectárea ganadera, sin aportes de suplementos al sistema. Esto se ha logrado con un plan sanitario adecuado, que nos ha permitido obtener un rodeo declarado libre de brucelosis y tuberculosis, sin un solo caso de venéreas en más de 10 años  detectado por raspajes prepuciales de los reproductores.</p>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <p>Tenemos tolerancia 0 sobre la infertilidad: 
+Ninguna vaca que no tenga cría o esté vacía al tacto queda en el rodeo.  Solo se insemina con padres que estén en el 10 % superior de preñez lograda con 1 servicio de inseminación artificial. La inseminación solo se repasa con toros aptos para servicio con un año de edad, esto se determina por análisis de semen antes de que cumplan un año.
+Todos los toros se venden con: Análisis y clasificación de calidad seminal, y revisación y medición de testículos.</p>
+                </div>
+            </div>
+            <!-- EL que sea -->
+            <a data-toggle="collapse" data-parent="#accordion" href="#loquesea" class="collapsed">
+                <div class="panel-heading bg-verde colapsador">
+                    <h3 class="h3">FERTILIDAD | <span class="h5">Mucha más retribución con el mismo capital.</span></h3>
+                    <div class="colapsador-button-next"></div>
+                </div>
+            </a>
+            <div id="loquesea" class="panel-collapse collapse row">
+                <div class="col-sm-4 col-xs-12">
+                    <img src="assets/img/lacabana/img-lacabana-04.jpg" class="img-responsive" alt="La cabaña">
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <p>Hemos obtenido una marcación promedio de 91 terneros por vientre entorado en los últimos 10 años.
+El servicio tiene 65 días de duración. Trabajamos con una carga de 1.2 vacas por hectárea ganadera, sin aportes de suplementos al sistema. Esto se ha logrado con un plan sanitario adecuado, que nos ha permitido obtener un rodeo declarado libre de brucelosis y tuberculosis, sin un solo caso de venéreas en más de 10 años  detectado por raspajes prepuciales de los reproductores.</p>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <p>Tenemos tolerancia 0 sobre la infertilidad: 
+Ninguna vaca que no tenga cría o esté vacía al tacto queda en el rodeo.  Solo se insemina con padres que estén en el 10 % superior de preñez lograda con 1 servicio de inseminación artificial. La inseminación solo se repasa con toros aptos para servicio con un año de edad, esto se determina por análisis de semen antes de que cumplan un año.
+Todos los toros se venden con: Análisis y clasificación de calidad seminal, y revisación y medición de testículos.</p>
+                </div>
             </div>
         </div>
     </div>

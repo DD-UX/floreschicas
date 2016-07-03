@@ -9042,10 +9042,11 @@ section.formulario-contacto textarea.form-control {
   border: none;
   box-shadow: none;
 }
-/* line 14, ../sass/components/_cabana.scss */
+/* line 13, ../sass/components/_cabana.scss */
 .cabana .panel-group [data-toggle="collapse"] .colapsador {
   padding: 20px 10px 20px 40px;
   position: relative;
+  margin-bottom: 15px;
 }
 /* line 17, ../sass/components/_cabana.scss */
 .cabana .panel-group [data-toggle="collapse"] .colapsador .h3 {
