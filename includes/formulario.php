@@ -14,7 +14,11 @@
                 <textarea name="consult" class="form-control" placeholder="Consulta"></textarea>
                 <p class="error-msg form-msg"></p>
                 <p class="success-msg form-msg"></p>
-                <button type="submit" class="h6 btn btn-primary btn-lg btn-block">ENVIAR</button>
+                <button type="submit" class="h6 btn btn-primary btn-lg btn-block">
+                    <span class="text">ENVIAR</span>
+                    <i class="fa fa-check-circle fa-3x icon-sent"></i>
+                    <i class="fa fa-spinner fa-pulse fa-3x fa-fw icon-loading"></i>
+                </button>
             </div>
         </div>
     </form>

@@ -8882,9 +8882,13 @@ section.formulario-contacto .form-msg.error-msg {
 section.formulario-contacto .form-msg.success-msg {
   color: #108b4a;
 }
+/* line 20, ../sass/components/_formulario.scss */
+section.formulario-contacto .btn .fa {
+  display: none;
+}
 
 @media only screen and (min-width: 768px) {
-  /* line 24, ../sass/components/_formulario.scss */
+  /* line 27, ../sass/components/_formulario.scss */
   section.formulario-contacto .container {
     padding: 0 50px;
   }
