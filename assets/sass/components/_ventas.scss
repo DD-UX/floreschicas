@@ -1,0 +1,11 @@
+.ventas {
+	@media only screen and (min-width: $screen-md) {
+		.ventas-info {
+			dl + p {
+				margin-top: 60px;
+			}
+		}
+	}
+	.panel-group {margin-top: 20px;}
+}
+
