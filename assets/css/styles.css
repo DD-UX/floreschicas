@@ -9151,3 +9151,31 @@ section.formulario-contacto .btn .fa {
 .contacto .panel-group {
   margin-top: 20px;
 }
+
+/* line 2, ../sass/components/_ventas.scss */
+.ventas .bg-verde {
+  font-family: "Roboto Slab", serif;
+}
+/* line 6, ../sass/components/_ventas.scss */
+.ventas .box-venta .box-venta-primero {
+  line-height: 30px;
+}
+/* line 10, ../sass/components/_ventas.scss */
+.ventas .box-venta .box-venta-botton {
+  margin-bottom: 30px;
+}
+/* line 14, ../sass/components/_ventas.scss */
+.ventas .box-venta .box-venta-segundo {
+  line-height: 24px;
+}
+/* line 18, ../sass/components/_ventas.scss */
+.ventas .box-venta .box-venta-tercero {
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+@media only screen and (max-width: 992px) {
+  /* line 24, ../sass/components/_ventas.scss */
+  .ventas .img-responsive {
+    margin: 0 auto 20px;
+  }
+}

@@ -1,0 +1,26 @@
+.ventas{
+    .bg-verde{
+        font-family: $font-family-serif;
+    }
+    .box-venta{
+        .box-venta-primero{
+            line-height: 30px;
+        }
+        
+        .box-venta-botton{
+        margin-bottom: 30px;
+        }
+        
+        .box-venta-segundo{
+            line-height: 24px;
+        }
+        
+        .box-venta-tercero{
+            padding-bottom: 50px;
+            padding-top: 40px;
+        }
+    }
+    @media only screen and (max-width: $screen-md){
+        .img-responsive {margin: 0 auto 20px;}
+    }
+}
