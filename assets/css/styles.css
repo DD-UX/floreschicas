@@ -1721,7 +1721,7 @@ html {
 body {
   font-family: "Roboto Slab", serif;
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.5;
   color: #333;
   background-color: #fff;
 }
@@ -1778,7 +1778,7 @@ img {
 /* line 93, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_scaffolding.scss */
 .img-thumbnail {
   padding: 4px;
-  line-height: 2;
+  line-height: 1.5;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 0;
@@ -1797,8 +1797,8 @@ img {
 
 /* line 113, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_scaffolding.scss */
 hr {
-  margin-top: 28px;
-  margin-bottom: 28px;
+  margin-top: 21px;
+  margin-bottom: 21px;
   border: 0;
   border-top: 1px solid #eeeeee;
 }
@@ -1862,8 +1862,8 @@ h6 .small,
 h1, .h1,
 h2, .h2,
 h3, .h3 {
-  margin-top: 28px;
-  margin-bottom: 14px;
+  margin-top: 21px;
+  margin-bottom: 10.5px;
 }
 /* line 30, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
 h1 small,
@@ -1882,8 +1882,8 @@ h3 .small, .h3 small,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  margin-top: 14px;
-  margin-bottom: 14px;
+  margin-top: 10.5px;
+  margin-bottom: 10.5px;
 }
 /* line 41, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
 h4 small,
@@ -1930,12 +1930,12 @@ h6, .h6 {
 
 /* line 58, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
 p {
-  margin: 0 0 14px;
+  margin: 0 0 10.5px;
 }
 
 /* line 62, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
 .lead {
-  margin-bottom: 28px;
+  margin-bottom: 21px;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.4;
@@ -2122,8 +2122,8 @@ a.bg-danger:focus {
 
 /* line 138, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
 .page-header {
-  padding-bottom: 13px;
-  margin: 56px 0 28px;
+  padding-bottom: 9.5px;
+  margin: 42px 0 21px;
   border-bottom: 1px solid #eeeeee;
 }
 
@@ -2131,7 +2131,7 @@ a.bg-danger:focus {
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 14px;
+  margin-bottom: 10.5px;
 }
 /* line 153, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
 ul ul,
@@ -2163,13 +2163,13 @@ ol ol {
 /* line 185, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
 dl {
   margin-top: 0;
-  margin-bottom: 28px;
+  margin-bottom: 21px;
 }
 
 /* line 189, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
 dt,
 dd {
-  line-height: 2;
+  line-height: 1.5;
 }
 
 /* line 193, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
@@ -2222,8 +2222,8 @@ abbr[data-original-title] {
 
 /* line 241, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
 blockquote {
-  padding: 14px 28px;
-  margin: 0 0 28px;
+  padding: 10.5px 21px;
+  margin: 0 0 21px;
   font-size: 17.5px;
   border-left: 5px solid #eeeeee;
 }
@@ -2239,7 +2239,7 @@ blockquote small,
 blockquote .small {
   display: block;
   font-size: 80%;
-  line-height: 2;
+  line-height: 1.5;
   color: #777777;
 }
 /* line 265, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
@@ -2279,9 +2279,9 @@ blockquote.pull-right .small:after {
 
 /* line 294, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_type.scss */
 address {
-  margin-bottom: 28px;
+  margin-bottom: 21px;
   font-style: normal;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 /* line 7, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_code.scss */
@@ -2321,10 +2321,10 @@ kbd kbd {
 /* line 41, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_code.scss */
 pre {
   display: block;
-  padding: 13.5px;
-  margin: 0 0 14px;
+  padding: 10px;
+  margin: 0 0 10.5px;
   font-size: 13px;
-  line-height: 2;
+  line-height: 1.5;
   word-break: break-all;
   word-wrap: break-word;
   color: #333;
@@ -3488,7 +3488,7 @@ th {
 .table {
   width: 100%;
   max-width: 100%;
-  margin-bottom: 28px;
+  margin-bottom: 21px;
 }
 /* line 31, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_tables.scss */
 .table > thead > tr > th,
@@ -3498,7 +3498,7 @@ th {
 .table > tfoot > tr > th,
 .table > tfoot > tr > td {
   padding: 8px;
-  line-height: 2;
+  line-height: 1.5;
   vertical-align: top;
   border-top: 1px solid #ddd;
 }
@@ -3688,7 +3688,7 @@ table th[class*="col-"] {
   /* line 171, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_tables.scss */
   .table-responsive {
     width: 100%;
-    margin-bottom: 21px;
+    margin-bottom: 15.75px;
     overflow-y: hidden;
     -ms-overflow-style: -ms-autohiding-scrollbar;
     border: 1px solid #ddd;
@@ -3750,7 +3750,7 @@ legend {
   display: block;
   width: 100%;
   padding: 0;
-  margin-bottom: 28px;
+  margin-bottom: 21px;
   font-size: 21px;
   line-height: inherit;
   color: #333;
@@ -3812,7 +3812,7 @@ output {
   display: block;
   padding-top: 7px;
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.5;
   color: #666;
 }
 
@@ -3823,7 +3823,7 @@ output {
   height: 44px;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.5;
   color: #666;
   background-color: #ccc;
   background-image: none;
@@ -3947,7 +3947,7 @@ input[type="search"] {
 /* line 231, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
 .radio label,
 .checkbox label {
-  min-height: 28px;
+  min-height: 21px;
   padding-left: 20px;
   margin-bottom: 0;
   font-weight: normal;
@@ -4016,7 +4016,7 @@ input[type="checkbox"] {
   padding-top: 7px;
   padding-bottom: 7px;
   margin-bottom: 0;
-  min-height: 42px;
+  min-height: 35px;
 }
 /* line 315, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
 .form-control-static.input-lg, .input-group-lg > .form-control-static.form-control,
@@ -4079,7 +4079,7 @@ select[multiple].input-sm,
 /* line 348, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-sm .form-control-static {
   height: 28px;
-  min-height: 39px;
+  min-height: 32px;
   padding: 6px 10px;
   font-size: 11px;
   line-height: 1.5;
@@ -4136,7 +4136,7 @@ select[multiple].input-lg,
 /* line 374, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
 .form-group-lg .form-control-static {
   height: 46px;
-  min-height: 46px;
+  min-height: 39px;
   padding: 11px 16px;
   font-size: 18px;
   line-height: 1.3333333;
@@ -4285,7 +4285,7 @@ select[multiple].input-lg,
 
 /* line 439, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
 .has-feedback label ~ .form-control-feedback {
-  top: 33px;
+  top: 26px;
 }
 /* line 442, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
 .has-feedback label.sr-only ~ .form-control-feedback {
@@ -4374,7 +4374,7 @@ select[multiple].input-lg,
 /* line 569, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .radio,
 .form-horizontal .checkbox {
-  min-height: 35px;
+  min-height: 28px;
 }
 /* line 575, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_forms.scss */
 .form-horizontal .form-group {
@@ -4431,7 +4431,7 @@ select[multiple].input-lg,
   white-space: nowrap;
   padding: 6px 12px;
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.5;
   border-radius: 0;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -4908,7 +4908,7 @@ tbody.collapse.in {
 /* line 60, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu .divider {
   height: 1px;
-  margin: 13px 0;
+  margin: 9.5px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -4918,7 +4918,7 @@ tbody.collapse.in {
   padding: 3px 20px;
   clear: both;
   font-weight: normal;
-  line-height: 2;
+  line-height: 1.5;
   color: #333;
   white-space: nowrap;
 }
@@ -4977,7 +4977,7 @@ tbody.collapse.in {
   display: block;
   padding: 3px 20px;
   font-size: 11px;
-  line-height: 2;
+  line-height: 1.5;
   color: #777777;
   white-space: nowrap;
 }
@@ -5467,7 +5467,7 @@ tbody.collapse.in {
 /* line 59, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navs.scss */
 .nav .nav-divider {
   height: 1px;
-  margin: 13px 0;
+  margin: 9.5px 0;
   overflow: hidden;
   background-color: #e5e5e5;
 }
@@ -5488,7 +5488,7 @@ tbody.collapse.in {
 /* line 84, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li > a {
   margin-right: 2px;
-  line-height: 2;
+  line-height: 1.5;
   border: 1px solid transparent;
   border-radius: 0 0 0 0;
 }
@@ -5616,7 +5616,7 @@ tbody.collapse.in {
 .navbar {
   position: relative;
   min-height: 70px;
-  margin-bottom: 28px;
+  margin-bottom: 21px;
   border: 1px solid transparent;
 }
 /* line 14, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/mixins/_clearfix.scss */
@@ -5774,9 +5774,9 @@ tbody.collapse.in {
 /* line 163, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-brand {
   float: left;
-  padding: 21px 15px;
+  padding: 24.5px 15px;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 21px;
   height: 70px;
 }
 /* line 170, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5831,13 +5831,13 @@ tbody.collapse.in {
 
 /* line 232, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-nav {
-  margin: 10.5px -15px;
+  margin: 12.25px -15px;
 }
 /* line 235, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-nav > li > a {
   padding-top: 10px;
   padding-bottom: 10px;
-  line-height: 28px;
+  line-height: 21px;
 }
 @media (max-width: 767px) {
   /* line 243, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
@@ -5857,7 +5857,7 @@ tbody.collapse.in {
   }
   /* line 255, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 28px;
+    line-height: 21px;
   }
   /* line 257, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
@@ -5876,8 +5876,8 @@ tbody.collapse.in {
   }
   /* line 272, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-nav > li > a {
-    padding-top: 21px;
-    padding-bottom: 21px;
+    padding-top: 24.5px;
+    padding-bottom: 24.5px;
   }
 }
 
@@ -6012,8 +6012,8 @@ tbody.collapse.in {
 
 /* line 359, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-text {
-  margin-top: 21px;
-  margin-bottom: 21px;
+  margin-top: 24.5px;
+  margin-bottom: 24.5px;
 }
 @media (min-width: 768px) {
   /* line 359, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
@@ -6253,7 +6253,7 @@ tbody.collapse.in {
 /* line 6, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_breadcrumbs.scss */
 .breadcrumb {
   padding: 8px 15px;
-  margin-bottom: 28px;
+  margin-bottom: 21px;
   list-style: none;
   background-color: #f5f5f5;
   border-radius: 0;
@@ -6277,7 +6277,7 @@ tbody.collapse.in {
 .pagination {
   display: inline-block;
   padding-left: 0;
-  margin: 28px 0;
+  margin: 21px 0;
   border-radius: 0;
 }
 /* line 10, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_pagination.scss */
@@ -6290,7 +6290,7 @@ tbody.collapse.in {
   position: relative;
   float: left;
   padding: 6px 12px;
-  line-height: 2;
+  line-height: 1.5;
   text-decoration: none;
   color: #108b4a;
   background-color: #fff;
@@ -6386,7 +6386,7 @@ tbody.collapse.in {
 /* line 6, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_pager.scss */
 .pager {
   padding-left: 0;
-  margin: 28px 0;
+  margin: 21px 0;
   list-style: none;
   text-align: center;
 }
@@ -6631,8 +6631,8 @@ a.badge:hover, a.badge:focus {
 .thumbnail {
   display: block;
   padding: 4px;
-  margin-bottom: 28px;
-  line-height: 2;
+  margin-bottom: 21px;
+  line-height: 1.5;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 0;
@@ -6665,7 +6665,7 @@ a.thumbnail.active {
 /* line 9, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_alerts.scss */
 .alert {
   padding: 15px;
-  margin-bottom: 28px;
+  margin-bottom: 21px;
   border: 1px solid transparent;
   border-radius: 0;
 }
@@ -6781,8 +6781,8 @@ a.thumbnail.active {
 /* line 26, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_progress-bars.scss */
 .progress {
   overflow: hidden;
-  height: 28px;
-  margin-bottom: 28px;
+  height: 21px;
+  margin-bottom: 21px;
   background-color: #f5f5f5;
   border-radius: 0;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -6795,7 +6795,7 @@ a.thumbnail.active {
   width: 0%;
   height: 100%;
   font-size: 11px;
-  line-height: 28px;
+  line-height: 21px;
   color: #fff;
   text-align: center;
   background-color: #108b4a;
@@ -7173,7 +7173,7 @@ button.list-group-item-danger.active:focus {
 
 /* line 7, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_panels.scss */
 .panel {
-  margin-bottom: 28px;
+  margin-bottom: 21px;
   background-color: #fff;
   border: 1px solid transparent;
   border-radius: 0;
@@ -7435,7 +7435,7 @@ button.list-group-item-danger.active:focus {
 
 /* line 222, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group {
-  margin-bottom: 28px;
+  margin-bottom: 21px;
 }
 /* line 226, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_panels.scss */
 .panel-group .panel {
@@ -7806,7 +7806,7 @@ button.close {
 /* line 90, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_modals.scss */
 .modal-title {
   margin: 0;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 /* line 97, ../../../../../Ruby23/lib/ruby/gems/2.3.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_modals.scss */
@@ -7887,7 +7887,7 @@ button.close {
   font-weight: normal;
   letter-spacing: normal;
   line-break: auto;
-  line-height: 2;
+  line-height: 1.5;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -8025,7 +8025,7 @@ button.close {
   font-weight: normal;
   letter-spacing: normal;
   line-break: auto;
-  line-height: 2;
+  line-height: 1.5;
   text-align: left;
   text-align: start;
   text-decoration: none;
@@ -8794,27 +8794,65 @@ button.close {
   }
 }
 /* line 2, ../sass/components/_general.scss */
+body.spacer {
+  padding-top: 90px;
+}
+/* line 5, ../sass/components/_general.scss */
 body .container {
   width: auto !important;
   max-width: 1170px;
 }
-/* line 6, ../sass/components/_general.scss */
+/* line 9, ../sass/components/_general.scss */
 body a, body .btn {
   transition: all 300ms ease-in;
 }
-/* line 9, ../sass/components/_general.scss */
+/* line 14, ../sass/components/_general.scss */
+body section.container .row {
+  margin-bottom: 20px;
+}
+/* line 15, ../sass/components/_general.scss */
+body section.container a:hover, body section.container a:focus {
+  text-decoration: none !important;
+}
+/* line 19, ../sass/components/_general.scss */
+body .list-bullet-inside {
+  list-style-position: inside;
+  padding-left: 0;
+}
+/* line 25, ../sass/components/_general.scss */
+body p + .list-bullet-inside, body .list-unstyled + .list-bullet-inside {
+  margin-top: -10.5px;
+}
+/* line 30, ../sass/components/_general.scss */
+body .list-unstyled + p {
+  margin-top: -10.5px;
+}
+/* line 34, ../sass/components/_general.scss */
 body .bg-verde {
   background: #108b4a;
   font-family: Montserrat, sans-serif;
   padding: 10px 10px 10px 20px;
+  position: relative;
 }
-/* line 13, ../sass/components/_general.scss */
-body .bg-verde, body .bg-verde a, body .bg-verde a:hover {
+/* line 39, ../sass/components/_general.scss */
+body .bg-verde,
+body .bg-verde a,
+body .bg-verde a:hover {
   color: white;
 }
-/* line 18, ../sass/components/_general.scss */
+/* line 44, ../sass/components/_general.scss */
 body .bg-verde p {
   margin: 0px;
+}
+@media only screen and (min-width: 992px) {
+  /* line 50, ../sass/components/_general.scss */
+  body .padding-50-left {
+    padding-left: 50px;
+  }
+  /* line 53, ../sass/components/_general.scss */
+  body .padding-50-right {
+    padding-right: 50px;
+  }
 }
 
 /* line 4, ../sass/components/_nav.scss */
@@ -9028,31 +9066,43 @@ section.formulario-contacto textarea.form-control {
   }
 }
 
-/* line 2, ../sass/components/_cabana.scss */
-.cabana .icono-descarga-flecha {
-  float: right;
-  margin-top: -30px;
+/* line 3, ../sass/components/_cabana.scss */
+.cabana .descarga-ficha .bg-verde {
+  padding: 0;
 }
-/* line 6, ../sass/components/_cabana.scss */
+/* line 5, ../sass/components/_cabana.scss */
+.cabana .descarga-ficha .bg-verde a {
+  display: block;
+  padding: 10px 70px 10px 20px;
+}
+/* line 9, ../sass/components/_cabana.scss */
+.cabana .descarga-ficha .bg-verde .icono-descarga-flecha {
+  right: 20px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+/* line 18, ../sass/components/_cabana.scss */
 .cabana .panel-group {
   margin-top: 15px;
 }
-/* line 8, ../sass/components/_cabana.scss */
+/* line 20, ../sass/components/_cabana.scss */
 .cabana .panel-group .panel-default {
   border: none;
   box-shadow: none;
 }
-/* line 13, ../sass/components/_cabana.scss */
+/* line 25, ../sass/components/_cabana.scss */
 .cabana .panel-group [data-toggle="collapse"] .colapsador {
-  padding: 20px 10px 20px 40px;
+  padding: 20px 80px 20px 40px;
   position: relative;
   margin-bottom: 15px;
 }
-/* line 17, ../sass/components/_cabana.scss */
+/* line 29, ../sass/components/_cabana.scss */
 .cabana .panel-group [data-toggle="collapse"] .colapsador .h3 {
   margin: 0;
 }
-/* line 18, ../sass/components/_cabana.scss */
+/* line 30, ../sass/components/_cabana.scss */
 .cabana .panel-group [data-toggle="collapse"] .colapsador .colapsador-button-next {
   background: none;
   width: 20px;
@@ -9069,7 +9119,7 @@ section.formulario-contacto textarea.form-control {
   transform: translateY(-50%) rotate(135deg);
   transition: all 300ms ease-in;
 }
-/* line 37, ../sass/components/_cabana.scss */
+/* line 49, ../sass/components/_cabana.scss */
 .cabana .panel-group [data-toggle="collapse"].collapsed .colapsador .colapsador-button-next {
   -webkit-transform: translateY(-50%) rotate(225deg);
   transform: translateY(-50%) rotate(225deg);

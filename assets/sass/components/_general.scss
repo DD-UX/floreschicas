@@ -1,4 +1,7 @@
 body {
+    &.spacer {
+        padding-top: 90px;
+    }
     .container {
         width: auto!important;
         max-width: $container-large-desktop;
@@ -6,17 +9,49 @@ body {
     a, .btn {
         transition: #{$transition};
     }
+    
+    section.container {
+        .row{margin-bottom: 20px;}
+        a:hover, a:focus {
+          text-decoration: none!important;
+        }
+    }
+    .list-bullet-inside {
+        list-style-position: inside;
+        padding-left: 0;
+    }
+    
+    p, .list-unstyled {
+        & + .list-bullet-inside {
+            margin-top: -10.5px;
+        }
+    }
+    
+    .list-unstyled + p {
+        margin-top: -10.5px;
+    }
+    
     .bg-verde{
         background: $green;
         font-family: $font-family-sans-serif;
         padding: 10px 10px 10px 20px;
+        position: relative;
         &,
-        & a,
-        & a:hover {
+        a,
+        a:hover {
             color: white;
         }
         p{
             margin: 0px;
+        }
+    }
+    
+    @media only screen and (min-width: $screen-md) {
+        .padding-50-left {
+            padding-left: 50px;
+        }
+        .padding-50-right {
+            padding-right: 50px;
         }
     }
 }
