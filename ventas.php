@@ -1,5 +1,5 @@
-<?php $titulo = "Cabaña flores chicas - Bienvenidos!"; ?>
-<?php $body_classes = "contacto spacer"; ?>
+<?php $titulo = "Ventas - Cabaña flores chicas"; ?>
+<?php $body_classes = "ventas spacer"; ?>
 <?php require_once('includes/header.php'); ?>
 
 <?php //Contenido va acá ?>
