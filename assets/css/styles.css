@@ -6070,7 +6070,7 @@ tbody.collapse.in {
 /* line 425, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
   color: #108b4a;
-  background-color: #e7e7e7;
+  background-color: transparent;
 }
 /* line 433, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
@@ -6096,7 +6096,7 @@ tbody.collapse.in {
 }
 /* line 462, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #e7e7e7;
+  background-color: transparent;
   color: #108b4a;
 }
 @media (max-width: 767px) {
@@ -6112,7 +6112,7 @@ tbody.collapse.in {
   /* line 482, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #108b4a;
-    background-color: #e7e7e7;
+    background-color: transparent;
   }
   /* line 490, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/bootstrap-sass-3.3.6/assets/stylesheets/bootstrap/_navbar.scss */
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
@@ -8908,6 +8908,10 @@ body .panel-group [data-toggle="collapse"].collapsed .colapsador .colapsador-but
 /* line 11, ../sass/components/_nav.scss */
 .navbar .navbar-brand img {
   max-height: 42px;
+}
+/* line 16, ../sass/components/_nav.scss */
+.navbar .nav .active a {
+  text-decoration: underline;
 }
 
 /* line 3, ../sass/components/_footer.scss */

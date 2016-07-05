@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><?= (isset($titulo) && !empty($titulo)) ? $titulo : "Cabaña flores chicas"; ?></title>
+    <title><?= (isset($titulo) && !empty($titulo)) ? utf8_decode(utf8_encode($titulo)) : utf8_decode(utf8_encode("Cabaña flores chicas")); ?></title>
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
@@ -31,10 +31,10 @@
 
         <nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="cabana">LA CABAÑA</a></li>
-            <li><a href="filosofia">FILOSOFÍA</a></li>
-            <li><a href="ventas">VENTAS</a></li>
-            <li><a href="contacto">CONTACTO</a></li>
+			<li data-href="/cabana"><a href="cabana">LA CABAÑA</a></li>
+            <li data-href="/filosofia"><a href="filosofia">FILOSOFÍA</a></li>
+            <li data-href="/ventas"><a href="ventas">VENTAS</a></li>
+            <li data-href="/contacto"><a href="contacto">CONTACTO</a></li>
           </ul>
         </nav>
       </div>

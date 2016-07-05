@@ -5,11 +5,17 @@
     var home_slider = new Swiper ('.home-slider', {
       // Optional parameters
       loop: true,
+	  autoplay: 5000,
+	  speed: 600,
       
       // Navigation arrows
       nextButton: '.swiper-button-next',
       prevButton: '.swiper-button-prev'
     });
+	  
+	// Navbar detection (works only online for relative path)
+	var location = window.location.pathname;
+	$('[data-href="'+location+'"]').addClass("active");
     
     
     // Contact form
