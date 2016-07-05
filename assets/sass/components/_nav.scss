@@ -12,4 +12,9 @@ $logo-padding: (($navbar-height - $logo-height) / 2);
             max-height: $logo-height;
         }
     }
+	.nav {
+		.active a {
+			text-decoration: underline;
+		}
+	}
 }

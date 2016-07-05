@@ -15,10 +15,10 @@
 				<dt>Cabaña</dt>
 				<dd>(02261) 442634</dd>
 				<dt>E-Mail</dt>
-				<dd>areco.as@gmail.com</dd>
+				<dd><a href='m&#97;ilto&#58;a%72eco&#46;a&#37;73%&#52;&#48;g%6&#68;&#97;&#37;&#54;9l&#46;&#37;63om'>arec&#111;&#46;as&#64;gmai&#108;&#46;&#99;&#111;m</a></dd>
 				<dt>Dr. Nestor H Reynoso</dt>
 				<dd>Cel: 02262 15567520</dd>
-				<dd>nhreynoso@gmail.com</dd>
+				<dd><a href='mai&#108;to&#58;nhr&#101;&#121;noso&#37;4&#48;&#103;m%61i%6C&#46;&#37;63&#37;&#54;Fm'>n&#104;r&#101;yn&#111;s&#111;&#64;g&#109;&#97;&#105;l&#46;com</a></dd>
 				<dt>Oficina Bs.As.</dt>
 				<dd>Ing. Agrónoma Daniela E. Vazquez Pugliese</dd>
 				<dd>Tel. 011-4802-1790 ó 011-4806-8081</dd>
