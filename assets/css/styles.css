@@ -9141,17 +9141,6 @@ section.formulario-contacto .btn .fa {
   transform: translateY(-50%);
 }
 
-@media only screen and (min-width: 992px) {
-  /* line 4, ../sass/components/_contacto.scss */
-  .contacto .contacto-info dl + p {
-    margin-top: 60px;
-  }
-}
-/* line 9, ../sass/components/_contacto.scss */
-.contacto .panel-group {
-  margin-top: 20px;
-}
-
 /* line 2, ../sass/components/_ventas.scss */
 .ventas .bg-verde {
   font-family: "Roboto Slab", serif;
@@ -9178,4 +9167,19 @@ section.formulario-contacto .btn .fa {
   .ventas .img-responsive {
     margin: 0 auto 20px;
   }
+}
+
+@media only screen and (min-width: 992px) {
+  /* line 4, ../sass/components/_contacto.scss */
+  .contacto .contacto-info dl + p {
+    margin-top: 60px;
+  }
+  /* line 8, ../sass/components/_contacto.scss */
+  .contacto .embed-responsive-4by3 {
+    padding-bottom: 66.6%;
+  }
+}
+/* line 12, ../sass/components/_contacto.scss */
+.contacto .panel-group {
+  margin-top: 20px;
 }

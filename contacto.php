@@ -26,7 +26,9 @@
 			<p>40 km de Balcarce en dirección a Pieres.<br>5 km después de cruzar la vía, sobre mano derecha.</p>
         </div>
         <div class="col-md-7 col-xs-12">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d308225.25996731955!2d-58.57721558421936!3d-38.03063258397145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDA2JzQ1LjYiUyA1OMKwMzAnMTUuNiJX!5e0!3m2!1sen!2sar!4v1467565939228" width="652" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<div class="embed-responsive embed-responsive-4by3">
+            	<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d308225.25996731955!2d-58.57721558421936!3d-38.03063258397145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDA2JzQ1LjYiUyA1OMKwMzAnMTUuNiJX!5e0!3m2!1sen!2sar!4v1467565939228" width="652" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
         </div>
     </div>
 </section>
@@ -37,7 +39,7 @@
 <?php //Contenido va acá ?>
 <section class="container">
 	<div class="row">
-		<div class="panel-group" id="accordion">
+		<div class="panel-group col-xs-12" id="accordion">
 			<div class="panel panel-default">
 
 				<!-- Comida -->
