@@ -107,8 +107,8 @@ Todos los toros se venden con: Análisis y clasificación de calidad seminal, y 
             </div>
         </div>
     </div>
+	<h2 class="h4 text-uppercase padding-50-left">toros padres</h2>
     <div class="row">
-        <h2 class="h4 text-uppercase padding-50-left">toros padres</h2>
         <div class="col-sm-4 col-xs-12">
             <img src="assets/img/lacabana/img-lacabana-07.jpg" class="img-responsive" alt="La cabaña">
             <figcaption class="bg-verde text-center">

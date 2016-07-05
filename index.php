@@ -34,7 +34,7 @@
   
   
     <div class="container">
-      <img class="img-responsive visible-xs" src="assets/img/home/img-slider-4-remate.jpg" alt="70 Toros Angus de 2 años">
+      <img class="img-responsive visible-xs" src="assets/img/lacabana/img-lacabana-07.jpg" alt="Cabaña flores chicas">
       <div class="row">
           <div class="col-sm-4 col-xs-12">
               <h3 class="h4">FERTILIDAD</h3>
