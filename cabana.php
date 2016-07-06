@@ -1,4 +1,4 @@
-<?php $titulo = "La cabaña - Cabaña flores chicas"; ?>
+<?php $titulo = "La cabaña - Cabaña Flores Chicas"; ?>
 <?php $body_classes = "cabana spacer"; ?>
 <?php require_once('includes/header.php'); ?>
 
@@ -107,120 +107,132 @@ Todos los toros se venden con: Análisis y clasificación de calidad seminal, y 
             </div>
         </div>
     </div>
-	<h2 class="h4 text-uppercase padding-50-left">toros padres</h2>
-    <div class="row">
-        <div class="col-sm-4 col-xs-12">
-            <img src="assets/img/lacabana/img-lacabana-07.jpg" class="img-responsive" alt="La cabaña">
-            <figcaption class="bg-verde text-center">
-                <p>TORO “RITCHIE Mc CAW”</p>
-            </figcaption>
-            <ul class="list-unstyled">
-                <li><b>Flores Chicas 13-L876</b></li>
-                <li><b>Nacimiento:</b> 14 de agosto, 2013</li>
-                <li><b>Peso al nacimiento:</b> 26 kg</li>
-                <li><b>Padre:</b> Turihaua Rex</li>
-                <li><b>ID madre:</b> 06-1831</li>
-                <li><b>Peso al año:</b> 368 kg</li>
-                <li><b>Ganancia de peso (nac/año):</b> 973 g / dia</li>
-                <li><b>Circ. escrotal al año:</b> 31.8 cm</li>
-                <li><b>Altura al año:</b> 116 cm</li>
-                <li><b>Frame:</b> 3.8</li>
-                <li><b>Area de ojo de bife:</b> 59.4 cm</li>
-                <li><b>Area c / 100 kg:</b> 10.1 cm</li>
-                <li><b>Docilidad:</b> 1</li> 
-            </ul>
-                <ul class="list-bullet-inside">
-                    <li>Probado en vaquillonas de 15 meses con pérdidas perinatales de 2%.</li>
-                    <li>Peso al nacimiento de sus hijos en vacas de 4 o más años: 33,7 kg con 121 hijos registrados.</li>
-                    <li>Transmite excepcional docilidad y aplomos impecables.</li>
-                    <li>Su madre ha dejado hijas de reposición y toros.</li>
-                </ul>
-            
-        </div>
-        <div class="col-sm-4 col-xs-12">
-            <img src="assets/img/lacabana/img-lacabana-08.jpg" class="img-responsive" alt="La cabaña">
-            <figcaption class="bg-verde text-center">
-                <p>TORO “MA NONU”</p>
-            </figcaption>
-            <ul class="list-unstyled">
-                <li><b>Flores Chicas 13-L902</b></li>
-                <li><b>Nacimiento:</b> 14 de agosto, 2013</li>
-                <li><b>Peso al nacimiento:</b> 32 kg</li>
-                <li><b>ID Padre:</b> Turihaua Liberation</li>
-                <li><b>ID Madre:</b> 09 E 475</li>
-                <li><b>Peso al año:</b> 378 kg</li>
-                <li><b>Ganancia de peso (nac/año):</b> 948 g/dia</li>
-                <li><b>Circ. escrotal al año:</b> 33.4 cm</li>
-                <li><b>Altura al año:</b> 116 cm</li>
-                <li><b>Frame:</b> 3.8</li>
-                <li><b>Area de ojo de bife:</b> 66.4 cm</li>
-                <li><b>Area c / 100 kg:</b> 12 cm</li>
-                <li><b>Docilidad:</b> 1</li>
-            </ul>
-            <ul class="list-bullet-inside">
-                <li>Probado en vaquillonas de 15 meses con pérdidas perinatales de 2%.</li>
-                <li>Peso al nacimiento de sus hijos en vacas de 4 o más años: 33,2kg con 142 hijos registrados.</li>
-                <li>Su madre tiene una excepcional performance reproductiva, preñándose 5 veces seguidas con la primera inseminación.</li> 
-            </ul>
-        </div>
-        <div class="col-sm-4 col-xs-12">
-            <img src="assets/img/lacabana/img-lacabana-09.jpg" class="img-responsive" alt="La cabaña">
-            <figcaption class="bg-verde text-center">
-                <p>TORO “BENO”</p>
-            </figcaption>
-            <ul class="list-unstyled">
-                <li><b>Flores Chicas 13-M858</b></li>
-                <li><b>Nacimiento:</b> 7 de agosto , 2013</li>
-                <li><b>Peso al nacimiento:</b> 29 kg</li>
-                <li><b>ID Padre:</b>  Flores chicas 10- D 820 " NENE "</li>
-                <li><b>ID Madre:</b> 07 _ 1295</li>
-                <li><b>Peso al año:</b> 315 kg</li>
-                <li><b>Ganancia de peso (nac/año):</b> 784 g / dia</li>
-                <li><b>Circ. escrotal al año:</b>  30.3 cm</li>
-                <li><b>Altura al año:</b> 113 cm</li>
-                <li><b>Frame:</b> 3.2</li>
-                <li><b>Area de ojo de bife:</b> 69.7 cm</li>
-                <li><b>Area c / 100kg:</b> 15.2 cm</li>
-                <li><b>Docilidad:</b> 1</li>
-            </ul>
-            <ul class="list-bullet-inside">
-                <li>Probado en vaquillonas de 15 meses con pérdidas perinatales del 3%.</li>
-                <li>Peso al nacimiento de sus hijos en vacas de 4 o más años: 32,3kg con 132 hijos registrados.</li>
-            </ul>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-4 col-xs-12">
-            <img src="assets/img/lacabana/img-lacabana-010.jpg" class="img-responsive" alt="La cabaña">
-            <figcaption class="bg-verde text-center">
-                <p>TORO “NENE”</p>
-            </figcaption>
-            <ul class="list-unstyled">
-                <li><b>Flores Chicas 010-D820</b></li>
-                <li><b>Nacimiento:</b> 20 de abril, 2003</li>
-                <li><b>Peso al nacimiento:</b> 29 kg</li>
-                <li><b>Circ. escrotal adulta:</b> 42 cm</li>
-                <li><b>Altura adulta:</b> 1,32 cm</li>
-            </ul>
-            <p>Su madre, 07-1253 (hija de Or Grund) es híper precoz ya que se preñó a los 6 meses de edad, crió su primer ternero y con 23 meses se preña por segunda vez y lo pare a “Nene”. Su padre tenía 1 año de edad al servicio y había sido seleccionado por facilidad de parto y fertilidad. “Nene” congeló semen en el primer intento que hicimos a los 10 meses de edad y todos sus hijos, en la prueba de medición de inicio de pubertad, a los 10 meses de edad ya la habían iniciado. Es portador de gen colorado.</p>
-            <p>Más de mil partos con pesos al nacer que no superan el 6,4% del peso de la madre. Largo de gestación de 279 días en vaca de más de 3 años. Esta genética de parto fácil se comporta adecuadamente en el feedlot. Un lote de terneros de 235 kg iniciales fueron engordados durante 146 días en el establecimiento de Compal S.A en Saladillo, ganaron 1.08 kg por día, se faenaron con 403 kg rindiendo un 59,7%. Los hijos de Nene tuvieron 100% de conformación A y J con grado de terminación 1 y 2 según la clasificación realizada por Senasa.</p>
-        </div>
-        <div class="col-sm-4 col-xs-12">
-            <img src="assets/img/lacabana/img-lacabana-011.jpg" class="img-responsive" alt="La cabaña">
-            <figcaption class="bg-verde text-center">
-                <p>TORO “OSIRIS”</p>
-            </figcaption>
-            <ul class="list-unstyled">
-                <li><b>Flores Chicas 010-D882</b></li>
-                <li><b>Nacimiento:</b> 15 de junio, 2010</li>
-                <li><b>Peso al nacimiento:</b> 28 kg</li>
-                <li><b>ID Madre:</b> 07-1253</li>
-                <li><b>Circ. escrotal adulta:</b> 43 cm</li>
-                <li><b>Altura adulta:</b> 1,33 cm</li>
-            </ul>
-            <p>Seleccionado bajo las estrictas condiciones de Flores Chicas donde la fertilidad, facilidad de parto y aplomos son innegociables. Es nieto de Donald y transmite gen colorado.</p>
-        </div>
-    </div>
+	<div class="tech-specs">
+		<h2 class="h4 text-uppercase padding-50-left">Toros padres</h2>
+		<div class="row">
+			<div class="col-sm-4 col-xs-12">
+				<figure class="figure">
+					<img src="assets/img/lacabana/img-lacabana-07.jpg" class="img-responsive" alt="La cabaña">
+					<figcaption class="bg-verde text-center">
+						<p>TORO “RITCHIE Mc CAW”</p>
+					</figcaption>
+				</figure>
+				<ul class="list-unstyled">
+					<li><b>Flores Chicas 13-L876</b></li>
+					<li><b>Nacimiento:</b> 14 de agosto, 2013</li>
+					<li><b>Peso al nacimiento:</b> 26 kg</li>
+					<li><b>Padre:</b> Turihaua Rex</li>
+					<li><b>ID madre:</b> 06-1831</li>
+					<li><b>Peso al año:</b> 368 kg</li>
+					<li><b>Ganancia de peso (nac/año):</b> 973 g / dia</li>
+					<li><b>Circ. escrotal al año:</b> 31.8 cm</li>
+					<li><b>Altura al año:</b> 116 cm</li>
+					<li><b>Frame:</b> 3.8</li>
+					<li><b>Area de ojo de bife:</b> 59.4 cm</li>
+					<li><b>Area c / 100 kg:</b> 10.1 cm</li>
+					<li><b>Docilidad:</b> 1</li> 
+				</ul>
+					<ul class="list-bullet-inside">
+						<li>Probado en vaquillonas de 15 meses con pérdidas perinatales de 2%.</li>
+						<li>Peso al nacimiento de sus hijos en vacas de 4 o más años: 33,7 kg con 121 hijos registrados.</li>
+						<li>Transmite excepcional docilidad y aplomos impecables.</li>
+						<li>Su madre ha dejado hijas de reposición y toros.</li>
+					</ul>
+
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<figure class="figure">
+					<img src="assets/img/lacabana/img-lacabana-08.jpg" class="img-responsive" alt="La cabaña">
+					<figcaption class="bg-verde text-center">
+						<p>TORO “MA NONU”</p>
+					</figcaption>
+				</figure>
+				<ul class="list-unstyled">
+					<li><b>Flores Chicas 13-L902</b></li>
+					<li><b>Nacimiento:</b> 14 de agosto, 2013</li>
+					<li><b>Peso al nacimiento:</b> 32 kg</li>
+					<li><b>ID Padre:</b> Turihaua Liberation</li>
+					<li><b>ID Madre:</b> 09 E 475</li>
+					<li><b>Peso al año:</b> 378 kg</li>
+					<li><b>Ganancia de peso (nac/año):</b> 948 g/dia</li>
+					<li><b>Circ. escrotal al año:</b> 33.4 cm</li>
+					<li><b>Altura al año:</b> 116 cm</li>
+					<li><b>Frame:</b> 3.8</li>
+					<li><b>Area de ojo de bife:</b> 66.4 cm</li>
+					<li><b>Area c / 100 kg:</b> 12 cm</li>
+					<li><b>Docilidad:</b> 1</li>
+				</ul>
+				<ul class="list-bullet-inside">
+					<li>Probado en vaquillonas de 15 meses con pérdidas perinatales de 2%.</li>
+					<li>Peso al nacimiento de sus hijos en vacas de 4 o más años: 33,2kg con 142 hijos registrados.</li>
+					<li>Su madre tiene una excepcional performance reproductiva, preñándose 5 veces seguidas con la primera inseminación.</li> 
+				</ul>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<figure class="figure">
+					<img src="assets/img/lacabana/img-lacabana-09.jpg" class="img-responsive" alt="La cabaña">
+					<figcaption class="bg-verde text-center">
+						<p>TORO “BENO”</p>
+					</figcaption>
+				</figure>
+				<ul class="list-unstyled">
+					<li><b>Flores Chicas 13-M858</b></li>
+					<li><b>Nacimiento:</b> 7 de agosto , 2013</li>
+					<li><b>Peso al nacimiento:</b> 29 kg</li>
+					<li><b>ID Padre:</b>  Flores chicas 10- D 820 " NENE "</li>
+					<li><b>ID Madre:</b> 07 _ 1295</li>
+					<li><b>Peso al año:</b> 315 kg</li>
+					<li><b>Ganancia de peso (nac/año):</b> 784 g / dia</li>
+					<li><b>Circ. escrotal al año:</b>  30.3 cm</li>
+					<li><b>Altura al año:</b> 113 cm</li>
+					<li><b>Frame:</b> 3.2</li>
+					<li><b>Area de ojo de bife:</b> 69.7 cm</li>
+					<li><b>Area c / 100kg:</b> 15.2 cm</li>
+					<li><b>Docilidad:</b> 1</li>
+				</ul>
+				<ul class="list-bullet-inside">
+					<li>Probado en vaquillonas de 15 meses con pérdidas perinatales del 3%.</li>
+					<li>Peso al nacimiento de sus hijos en vacas de 4 o más años: 32,3kg con 132 hijos registrados.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-4 col-xs-12">
+				<figure class="figure">
+					<img src="assets/img/lacabana/img-lacabana-010.jpg" class="img-responsive" alt="La cabaña">
+					<figcaption class="bg-verde text-center">
+						<p>TORO “NENE”</p>
+					</figcaption>
+				</figure>
+				<ul class="list-unstyled">
+					<li><b>Flores Chicas 010-D820</b></li>
+					<li><b>Nacimiento:</b> 20 de abril, 2003</li>
+					<li><b>Peso al nacimiento:</b> 29 kg</li>
+					<li><b>Circ. escrotal adulta:</b> 42 cm</li>
+					<li><b>Altura adulta:</b> 1,32 cm</li>
+				</ul>
+				<p>Su madre, 07-1253 (hija de Or Grund) es híper precoz ya que se preñó a los 6 meses de edad, crió su primer ternero y con 23 meses se preña por segunda vez y lo pare a “Nene”. Su padre tenía 1 año de edad al servicio y había sido seleccionado por facilidad de parto y fertilidad. “Nene” congeló semen en el primer intento que hicimos a los 10 meses de edad y todos sus hijos, en la prueba de medición de inicio de pubertad, a los 10 meses de edad ya la habían iniciado. Es portador de gen colorado.</p>
+				<p>Más de mil partos con pesos al nacer que no superan el 6,4% del peso de la madre. Largo de gestación de 279 días en vaca de más de 3 años. Esta genética de parto fácil se comporta adecuadamente en el feedlot. Un lote de terneros de 235 kg iniciales fueron engordados durante 146 días en el establecimiento de Compal S.A en Saladillo, ganaron 1.08 kg por día, se faenaron con 403 kg rindiendo un 59,7%. Los hijos de Nene tuvieron 100% de conformación A y J con grado de terminación 1 y 2 según la clasificación realizada por Senasa.</p>
+			</div>
+			<div class="col-sm-4 col-xs-12">
+				<figure class="figure">
+					<img src="assets/img/lacabana/img-lacabana-011.jpg" class="img-responsive" alt="La cabaña">
+					<figcaption class="bg-verde text-center">
+						<p>TORO “OSIRIS”</p>
+					</figcaption>
+				</figure>
+				<ul class="list-unstyled">
+					<li><b>Flores Chicas 010-D882</b></li>
+					<li><b>Nacimiento:</b> 15 de junio, 2010</li>
+					<li><b>Peso al nacimiento:</b> 28 kg</li>
+					<li><b>ID Madre:</b> 07-1253</li>
+					<li><b>Circ. escrotal adulta:</b> 43 cm</li>
+					<li><b>Altura adulta:</b> 1,33 cm</li>
+				</ul>
+				<p>Seleccionado bajo las estrictas condiciones de Flores Chicas donde la fertilidad, facilidad de parto y aplomos son innegociables. Es nieto de Donald y transmite gen colorado.</p>
+			</div>
+		</div>
+	</div>
 </section>
 
 <?php //Y termina acá ?>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title><?= (isset($titulo) && !empty($titulo)) ? utf8_decode(utf8_encode($titulo)) : utf8_decode(utf8_encode("Cabaña flores chicas")); ?></title>
+    <title><?= (isset($titulo) && !empty($titulo)) ? utf8_decode(utf8_encode($titulo)) : utf8_decode(utf8_encode("Cabaña Flores Chicas")); ?></title>
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css">
@@ -24,8 +24,11 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index">
-            <img src="assets/img/logo-flores-chicas.png">
+          <a href="/">
+			<h1 class="navbar-brand">
+			  <span class="sr-only">Cabaña Flores Chicas</span>
+              <img src="assets/img/logo-flores-chicas.png">
+		    </h1>
           </a>
         </div>
 

@@ -1,4 +1,4 @@
-<?php $titulo = "Ventas - Cabaña flores chicas"; ?>
+<?php $titulo = "Ventas - Cabaña Flores Chicas"; ?>
 <?php $body_classes = "ventas spacer"; ?>
 <?php require_once('includes/header.php'); ?>
 

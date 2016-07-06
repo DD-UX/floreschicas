@@ -1,4 +1,4 @@
-<?php $titulo = "Cabaña flores chicas - Bienvenidos!"; ?>
+<?php $titulo = "Cabaña Flores Chicas - Bienvenidos!"; ?>
 <?php $body_classes = "home"; ?>
 <?php $header_static = true; ?>
 <?php require_once('includes/header.php'); ?>
@@ -16,16 +16,18 @@
         </div>
         <div class="swiper-slide slide-ventas">
             <h2 class="h2">Esto es fertilidad, mucha más retribución<br>con el mismo capital en vientres.</h2>
-            <a class="btn btn-primary h5" href="cabana">¿QUÉ VENDEMOS?</a>
+            <a class="btn btn-primary h5" href="ventas">¿QUÉ VENDEMOS?</a>
         </div>
         <div class="swiper-slide slide-contacto">
             <h2 class="h2">Estamos agradecidos por tener la oportunidad<br>de buscar la excelencia disfrutando lo que hacemos. </h2>
-            <a class="btn btn-primary h5" href="cabana">CONTACTO</a>
+            <a class="btn btn-primary h5" href="contacto">CONTACTO</a>
         </div>
+<!--
         <div class="swiper-slide slide-remate">
             <img class="img-fluid" src="assets/img/home/img-slider-4-remate.jpg" alt="70 Toros Angus de 2 años">
             <h2 class="h2">Remate de la cabaña<br>en la localidad de Balcarce<br>organización de la firma<br>Fontana y cia.</h2>
         </div>
+-->
     </div>
     
     <!-- Navigation buttons -->
