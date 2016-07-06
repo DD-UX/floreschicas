@@ -1,4 +1,4 @@
-<?php $titulo = "Contacto - Cabaña flores chicas"; ?>
+<?php $titulo = "Contacto - Cabaña Flores Chicas"; ?>
 <?php $body_classes = "contacto spacer"; ?>
 <?php require_once('includes/header.php'); ?>
 
@@ -39,6 +39,9 @@
 <?php //Contenido va acá ?>
 <section class="container">
 	<div class="row">
+		<br>
+		<br>
+		<h2 class="h4 text-uppercase padding-50-left">Preguntas frecuentes</h2>
 		<div class="panel-group col-xs-12" id="accordion">
 			<div class="panel panel-default">
 

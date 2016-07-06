@@ -8904,12 +8904,13 @@ body .panel-group [data-toggle="collapse"].collapsed .colapsador .colapsador-but
 .navbar .navbar-brand {
   padding-top: 14px;
   padding-bottom: 14px;
+  margin: 0;
 }
-/* line 11, ../sass/components/_nav.scss */
+/* line 12, ../sass/components/_nav.scss */
 .navbar .navbar-brand img {
   max-height: 42px;
 }
-/* line 16, ../sass/components/_nav.scss */
+/* line 17, ../sass/components/_nav.scss */
 .navbar .nav .active a {
   text-decoration: underline;
 }
@@ -9143,6 +9144,14 @@ section.formulario-contacto .btn .fa {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+/* line 18, ../sass/components/_cabana.scss */
+.cabana .tech-specs {
+  line-height: 2;
+}
+/* line 20, ../sass/components/_cabana.scss */
+.cabana .tech-specs .figure {
+  margin-bottom: 10px;
 }
 
 /* line 2, ../sass/components/_ventas.scss */

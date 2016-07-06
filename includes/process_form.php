@@ -28,7 +28,7 @@
 
   function process_form ($form){
     $msg["type"] = "success";
-    $msg["msg"] = "Su mensaje ha sido enviado correctamente";
+    $msg["msg"] = "Gracias por contactarte con nosotros, a la brevedad te responderemos, gracias!";
     echo json_encode($msg);
     
     $subject = "Formulario enviado desde la web";
