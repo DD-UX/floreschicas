@@ -34,6 +34,9 @@
 
         <nav class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
+			<?php if (!isset($hide_home_btn)){ ?>
+            <li data-href="/"><a href="/">HOME</a></li>
+            <?php } ?>
 			<li data-href="/cabana"><a href="cabana">LA CABAÑA</a></li>
             <li data-href="/filosofia"><a href="filosofia">FILOSOFÍA</a></li>
             <li data-href="/ventas"><a href="ventas">VENTAS</a></li>

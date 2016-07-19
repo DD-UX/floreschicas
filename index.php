@@ -1,6 +1,7 @@
 <?php $titulo = "Cabaña Flores Chicas - Bienvenidos!"; ?>
 <?php $body_classes = "home"; ?>
 <?php $header_static = true; ?>
+<?php $hide_home_btn = true; ?>
 <?php require_once('includes/header.php'); ?>
 
 <?php //Contenido va acá ?>
