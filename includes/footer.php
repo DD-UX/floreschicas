@@ -8,6 +8,9 @@
             </div>
             <div class="col-xs-12 col-md-9 col-md-offset-1">
                 <nav>
+                    <?php if (!isset($hide_home_btn)){ ?>
+                    <a href="/">HOME</a>
+                    <?php } ?>
                     <a href="/cabana">LA CABAÑA</a>
                     <a href="/filosofia">FILOSOFÍA</a>
                     <a href="/ventas">VENTAS</a>
